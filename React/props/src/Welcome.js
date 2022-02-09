@@ -1,9 +1,10 @@
 import React from "react";
 
+// function based
 const Welcome = (props) => {
     return (
     <div>
-        <h1 style={{color:"red"}}>
+        <h1>
             Welcome {props.name}
         </h1>
         {props.children}
@@ -11,4 +12,4 @@ const Welcome = (props) => {
     )
 }
 
-export default Welcome;
+export default Welcome
