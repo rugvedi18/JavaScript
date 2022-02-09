@@ -1,6 +1,6 @@
 import React from 'react';
-import Welcome from './Welcome';
-import Greet from './Greet';
+import Welcome from './Components/Welcome';
+import Greet from './Components/Greet';
 
 const App = () => {
   return (
@@ -20,7 +20,6 @@ const App = () => {
       </div>
     </div>
   )
-  
 }
 
 export default App
